@@ -1,0 +1,80 @@
+
+INSERT INTO Guns VALUES ('Caldwell Rival 78', 175, 10, 90, 100);
+INSERT INTO Guns VALUES ('Crossbow', 260, 47, 150, 73);
+INSERT INTO Guns VALUES ('Lebel 1886', 132, 250, 630, 397);
+INSERT INTO Guns VALUES ('Mosin-Nagant M1891', 136, 250, 615, 490);
+INSERT INTO Guns VALUES ('Martini-Henry IC1', 143, 250, 400, 122);
+INSERT INTO Guns VALUES ('Romero 77', 200, 15, 450, 34);
+INSERT INTO Guns VALUES ('Vetterli 71 Karabiner', 130, 167, 410, 105);
+INSERT INTO Guns VALUES ('Winfield M1873', 110, 95, 400, 75);
+INSERT INTO Guns VALUES ('Nitro Express Rifle', 365, 250, 550, 1015);
+
+
+INSERT INTO Variant VALUES ('Handcannon', -90, -4, -50, -25);
+INSERT INTO Variant VALUES ('Aperature', 0, 50, 0, 25);
+INSERT INTO Variant VALUES ('Deadeye', 0, 70, 0, 30);
+INSERT INTO Variant VALUES ('Marksman', 0, 100, 0, 40);
+INSERT INTO Variant VALUES ('Sniper', 0, 150, 0, 60);
+INSERT INTO Variant VALUES ('Obrez', -4, -10, -60, -200);
+INSERT INTO Variant VALUES ('Bayonet', 60, 0, 0, 50);
+INSERT INTO Variant VALUES ('Talon', 50, 0, 0, 20);
+INSERT INTO Variant VALUES ('Silencer', 0, -20, -200, 50);
+INSERT INTO Variant VALUES ('No Variant', 0, 0, 0, 0);
+
+INSERT INTO GunsVariant VALUES (1,10);
+INSERT INTO GunsVariant VALUES (1,1);
+INSERT INTO GunsVariant VALUES (2,10);
+INSERT INTO GunsVariant VALUES (3,10);
+INSERT INTO GunsVariant VALUES (3,2);
+INSERT INTO GunsVariant VALUES (3,4);
+INSERT INTO GunsVariant VALUES (3,8);
+INSERT INTO GunsVariant VALUES (4,10);
+INSERT INTO GunsVariant VALUES (4,5);
+INSERT INTO GunsVariant VALUES (4,6);
+INSERT INTO GunsVariant VALUES (4,7);
+INSERT INTO GunsVariant VALUES (5,10);
+INSERT INTO GunsVariant VALUES (5,3);
+INSERT INTO GunsVariant VALUES (5,4);
+INSERT INTO GunsVariant VALUES (5,7);
+INSERT INTO GunsVariant VALUES (6,10);
+INSERT INTO GunsVariant VALUES (6,1);
+INSERT INTO GunsVariant VALUES (6,8);
+INSERT INTO GunsVariant VALUES (7,10);
+INSERT INTO GunsVariant VALUES (7,3);
+INSERT INTO GunsVariant VALUES (7,4);
+INSERT INTO GunsVariant VALUES (7,9);
+INSERT INTO GunsVariant VALUES (8,10);
+INSERT INTO GunsVariant VALUES (8,2);
+INSERT INTO GunsVariant VALUES (8,4);
+INSERT INTO GunsVariant VALUES (8,9);
+INSERT INTO GunsVariant VALUES (9,10);
+
+INSERT INTO SecondGun VALUES ('Nagant M1895', 91, 73, 330, 24);
+INSERT INTO SecondGun VALUES ('Scottfield Model 3', 107, 85, 280, 77);
+INSERT INTO SecondGun VALUES ('Caldwell Pax', 110, 86, 330, 100);
+INSERT INTO SecondGun VALUES ('Caldwell Conversion Pistol', 104, 84, 300, 26);
+INSERT INTO SecondGun VALUES ('Caldwell Conversion Uppercut', 130, 96, 410, 275);
+INSERT INTO SecondGun VALUES ('Bornheim No. 3', 74, 64, 380, 201);
+INSERT INTO SecondGun VALUES ('LeMat Mark II', 97, 79, 300, 95);
+INSERT INTO SecondGun VALUES ('Dolch 96', 97, 78, 440, 750);
+
+
+INSERT INTO Tools VALUES ('Dusters', 'A row of metal rings worn on the hand in order to increase the damage caused in hand-to-hand combat.', 15);
+INSERT INTO Tools VALUES ('Knife', 'An all-purpose tool and melee weapon that has saved many lives - and taken just as many.', 20);
+INSERT INTO Tools VALUES ('Knuckle Knife', 'The savage knuckle knife is a roughshod specialization for close quarters combat, suited for both bludgeoning and brutal thrusting deathblows.', 15);
+INSERT INTO Tools VALUES ('First Aid Kit', 'A bag of medical supplies that heal 50 health and stop bleeding. Can be used three times.', 30);
+INSERT INTO Tools VALUES ('Flare Pistol', 'A small pistol for firing flares into the air, illuminating the area. Can ignite flammable materials.', 36);
+INSERT INTO Tools VALUES ('Throwing Knives', 'Silent, but short-ranged projectile weapon. Thrown knives can be retrieved and re-used.', 40);
+INSERT INTO Tools VALUES ('Fusees', 'A pack of three handheld railroad flares used for illuminating dark areas and for signalling. Can ignite flammable materials.', 10);
+INSERT INTO Tools VALUES ('Spyglass', 'A monocular optical instrument for seeing things far away as if they were nearby.', 8);
+INSERT INTO Tools VALUES ('Decoys', 'A bag of scrap metal and glass. When thrown the noise can be effectively used to distract or divert enemies.', 6);
+INSERT INTO Tools VALUES ('Choke Bomb', 'The Choke Bomb exudes a gas that extinguishes any flames within its radius while active- as well as preventing new fires from being lit- and induces heavy coughing. Comes in a pack of two.', 25);
+INSERT INTO Tools VALUES ('Alert Trip Mine', 'This portable tripwire mine releases firecrackers and a small flare, alerting others to its location. Comes in a pack of four.', 60);
+
+
+
+
+
+
+
+
